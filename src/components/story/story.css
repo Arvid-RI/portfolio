@@ -1,0 +1,89 @@
+.brand-story {
+  padding: 4rem 2rem;
+  color: #333;
+}
+
+.brand-header {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.brand-intro {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-style: italic;
+  color: #555;
+}
+
+.story-part {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease, background 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 18px;
+}
+
+.story-part.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-part.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-paint {
+  flex: 1;
+  position: relative;
+  border-radius: 18px;
+}
+
+.story-image {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.image-paint:hover .story-image {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+}
+
+.text-box {
+  flex: 1;
+  padding: 0 2rem;
+}
+
+.story-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.story-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #34495e;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .story-part, .story-part.reverse {
+    flex-direction: column;
+  }
+
+  .text-box {
+    padding: 2rem 0 0 0;
+  }
+}

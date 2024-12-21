@@ -1,0 +1,56 @@
+.privacy{
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+
+.privacy-part1 h1{
+    font-family: serif;
+    font-size: 5rem;
+}
+
+.privacy-part1 p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.privacy-part2 h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.privacy-part2 ul.a {
+    margin-top: -3rem;
+    list-style-type: circle;
+    margin-bottom: 1rem;
+  }
+
+.privacy-part3 h1{
+    font-size: 3rem;
+}
+
+.privacy-part3 p{
+    margin-top: -3rem;
+}
+
+.privacy-part4 h1{
+    margin-bottom: -.1rem;
+}
+
+.privacy-part4 p{
+    margin-top: 1rem;
+}
+
+.privacy-part4 a{
+    color: rgb(93, 93, 255);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.privacy-part4 a:hover{
+    color: lightblue;
+}
+
+
